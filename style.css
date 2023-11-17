@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.fon{
+    font-family: 'Ubuntu', sans-serif;}
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    background-color: aliceblue;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    border-radius: 12px;
+    background-color: white;
+}
+.div-blue{
+    background:linear-gradient(rgb(63, 63, 255), blue);
+    color: white;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 18px;
+}
+.result-circle{
+    background: linear-gradient(rgb(0, 0, 210), rgb(38, 38, 251));
+    height: 120px;
+    width: 36%;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.div-result{
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+    border-radius: 18px;
+}
+.nombre{
+    margin: auto;
+}
+p span{
+    font-size: 40px;
+}
+.p,
+ul{
+    margin-bottom: 10%;
+    font-family: 'Roboto', sans-serif;
+}
+.different-result{
+    width: 100%;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    width: 80%;
+    border-radius: 8px;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+.div-result h4{
+    color: rgb(10, 1, 65);
+    font-size: 18px;
+    padding-left: 30px;
+}
+button{
+    cursor: pointer;
+    padding: 12px;
+    width: 68%;
+    background-color: rgb(10, 1, 65);
+    color: white;
+    border: none;
+    border-radius: 22px;
+    margin-left: 16%;
+}
+.bleu{
+    color: rgb(4, 4, 82);
+}
+.rose{
+    color: rgb(123, 26, 26);
+}
+.vert{
+    color: rgb(2, 133, 4);
+}
+.jaune{
+    color: rgb(185, 157, 1);
+}
+.gras{
+    font-family: 'Ubuntu', sans-serif;
+}
+.meme1{
+    background-color: antiquewhite;
+}
+.meme2{
+    background-color: rgb(211, 255, 255);
+}
+
+@media screen and (max-width: 425px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .div-blue{
+        width: 92%;
+    }
+    .div-result{
+        width: 92%;
+    }
+    li{
+        width: 88%;
+    }
+    button{
+        width: 82%;
+        margin-left: 12%;
+    }
+  }
